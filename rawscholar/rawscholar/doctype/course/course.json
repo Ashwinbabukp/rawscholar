@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:course_select",
+ "creation": "2024-06-12 12:27:32.304881",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1bb2",
+  "course_select"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_1bb2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "course_select",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Course Select",
+   "options": "Courses",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-12 12:29:01.716840",
+ "modified_by": "Administrator",
+ "module": "Rawscholar",
+ "name": "Course",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

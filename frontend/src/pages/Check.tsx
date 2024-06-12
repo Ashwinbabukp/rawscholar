@@ -4,7 +4,7 @@ import LoginAuth from "./LoginAuth";
 
 function Check() {
   // const [src, setSrc] = useState("");
-  const { data,isLoading } = useFrappeGetDocList("Student", { fields: ["image"] });
+  const { data,isLoading } = useFrappeGetDocList("Stud  ent", { fields: ["image"] });
   console.log(data,isLoading);
 
   return (

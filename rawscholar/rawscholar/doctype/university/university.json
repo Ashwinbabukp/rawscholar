@@ -5,18 +5,34 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "university"
+  "university",
+  "country",
+  "course"
  ],
  "fields": [
   {
    "fieldname": "university",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "University"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Country",
+   "options": "Countries"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Table MultiSelect",
+   "label": "Course",
+   "options": "Course"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-11 17:24:02.069050",
+ "modified": "2024-06-12 12:29:53.956253",
  "modified_by": "Administrator",
  "module": "Rawscholar",
  "name": "University",
@@ -35,7 +51,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "university"
 }

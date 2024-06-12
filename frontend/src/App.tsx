@@ -4,8 +4,8 @@ import Check from "./pages/Check";
 
 function App() {
   return (
-    <FrappeProvider socketPort={import.meta.env.VITE_SOCKET_PORT}>
-      <BrowserRouter basename={import.meta.env.VITE_BASE_PATH}>
+    <FrappeProvider>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<h1>Hi</h1>} />
           <Route path="/check" element={<Check />} />
