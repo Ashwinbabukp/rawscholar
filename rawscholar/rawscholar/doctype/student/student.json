@@ -1,43 +1,157 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:name1",
  "creation": "2024-06-10 09:34:21.721338",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "first_name",
-  "last_name",
-  "number",
-  "image"
+  "name1",
+  "address",
+  "dob",
+  "gender",
+  "status",
+  "country",
+  "column_break_dleh",
+  "email",
+  "phone",
+  "qualifications",
+  "passport_no",
+  "notes_tab",
+  "notes",
+  "notes_html",
+  "files_tab",
+  "files",
+  "photo",
+  "activities_tab",
+  "open_activities_html",
+  "all_activities_section",
+  "all_activities_html",
+  "others_tab"
  ],
  "fields": [
   {
-   "fieldname": "first_name",
+   "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "First Name"
+   "in_list_view": 1,
+   "label": "Name",
+   "unique": 1
   },
   {
-   "fieldname": "last_name",
+   "fieldname": "address",
    "fieldtype": "Data",
-   "label": "Last Name"
+   "label": "Address"
   },
   {
-   "fieldname": "number",
+   "fieldname": "dob",
    "fieldtype": "Data",
-   "label": "Number"
+   "label": "DOB"
   },
   {
-   "fieldname": "image",
-   "fieldtype": "Attach Image",
-   "label": "image"
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "--select--\nMale\nFemale"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Countries"
+  },
+  {
+   "fieldname": "column_break_dleh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "qualifications",
+   "fieldtype": "Data",
+   "label": "Qualifications"
+  },
+  {
+   "fieldname": "passport_no",
+   "fieldtype": "Data",
+   "label": "Passport No"
+  },
+  {
+   "fieldname": "notes_tab",
+   "fieldtype": "Tab Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Table",
+   "label": "Notes",
+   "options": "Notes"
+  },
+  {
+   "fieldname": "notes_html",
+   "fieldtype": "HTML",
+   "label": "Notes HTML"
+  },
+  {
+   "fieldname": "files_tab",
+   "fieldtype": "Tab Break",
+   "label": "Files"
+  },
+  {
+   "fieldname": "files",
+   "fieldtype": "Attach",
+   "label": "Files"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "activities_tab",
+   "fieldtype": "Tab Break",
+   "label": "Activities"
+  },
+  {
+   "fieldname": "open_activities_html",
+   "fieldtype": "HTML",
+   "label": "Open Activities HTML"
+  },
+  {
+   "fieldname": "all_activities_section",
+   "fieldtype": "Section Break",
+   "label": "All Activities"
+  },
+  {
+   "fieldname": "all_activities_html",
+   "fieldtype": "Data",
+   "label": "All Activities HTML"
+  },
+  {
+   "fieldname": "others_tab",
+   "fieldtype": "Tab Break",
+   "label": "Others"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-10 10:47:47.748647",
+ "modified": "2024-06-12 15:47:36.709926",
  "modified_by": "Administrator",
  "module": "Rawscholar",
  "name": "Student",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
