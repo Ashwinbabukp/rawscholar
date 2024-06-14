@@ -16,13 +16,14 @@
   "email",
   "phone",
   "qualifications",
+  "custom_qualification_html",
   "passport_no",
   "notes_tab",
   "notes",
   "notes_html",
   "files_tab",
-  "files",
   "photo",
+  "files",
   "activities_tab",
   "open_activities_html",
   "all_activities_section",
@@ -79,9 +80,11 @@
    "label": "Phone"
   },
   {
+   "columns": 4,
    "fieldname": "qualifications",
-   "fieldtype": "Data",
-   "label": "Qualifications"
+   "fieldtype": "Table",
+   "label": "Qualifications",
+   "options": "Qualification"
   },
   {
    "fieldname": "passport_no",
@@ -96,6 +99,7 @@
   {
    "fieldname": "notes",
    "fieldtype": "Table",
+   "hidden": 1,
    "label": "Notes",
    "options": "Notes"
   },
@@ -110,9 +114,11 @@
    "label": "Files"
   },
   {
+   "columns": 3,
    "fieldname": "files",
-   "fieldtype": "Attach",
-   "label": "Files"
+   "fieldtype": "Table",
+   "label": "Files",
+   "options": "Attachments"
   },
   {
    "fieldname": "photo",
@@ -137,17 +143,23 @@
   {
    "fieldname": "all_activities_html",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "All Activities HTML"
   },
   {
    "fieldname": "others_tab",
    "fieldtype": "Tab Break",
    "label": "Others"
+  },
+  {
+   "fieldname": "custom_qualification_html",
+   "fieldtype": "HTML",
+   "label": "Custom Qualification HTML"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-12 15:47:36.709926",
+ "modified": "2024-06-14 16:36:42.065516",
  "modified_by": "Administrator",
  "module": "Rawscholar",
  "name": "Student",

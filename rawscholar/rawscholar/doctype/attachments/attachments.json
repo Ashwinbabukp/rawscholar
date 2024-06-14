@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-14 11:38:16.717574",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_qeif",
+  "attachment_type",
+  "file"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_qeif",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attachment_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Attachment Type",
+   "options": "Attachment Type"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "label": "File"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-14 11:39:08.982321",
+ "modified_by": "Administrator",
+ "module": "Rawscholar",
+ "name": "Attachments",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

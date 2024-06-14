@@ -12,6 +12,7 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/rawscholar/css/rawscholar.css"
 # app_include_js = "/assets/rawscholar/js/rawscholar.js"
+app_include_js = "rawscholar.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/rawscholar/css/rawscholar.css"
