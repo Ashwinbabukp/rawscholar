@@ -1,0 +1,32 @@
+ .titleTag {
+    color: #067bc2;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 25px;
+ }
+.contact-text{
+    height: 630px;
+    border-radius: 10px;
+    background: linear-gradient(106deg, #DEEEF9 -0.55%, #A5D5F2 96.41%);
+}
+.connectList ul li {
+    list-style: none;
+}
+
+.formContainer {
+    padding: 45px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #ffff;
+    height: 550px;
+ }
+ .inputBox {
+    width: 300px;
+    padding: 5px 15px;
+    border: 1px solid #067bc2;
+    outline: none;
+    border-radius: 4px;
+    overflow: hidden;
+ }
+ 
+ 

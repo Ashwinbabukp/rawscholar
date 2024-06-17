@@ -1,0 +1,7 @@
+.socialIcon{
+    display: flex;
+    margin: 15px;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+}

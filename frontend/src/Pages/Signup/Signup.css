@@ -1,0 +1,21 @@
+.containerlogin {
+   background: linear-gradient(106deg, #deeef9 -0.55%, #a5d5f2 96.41%);
+}
+.formContainer {
+   padding: 45px;
+   width: 400px;
+   border-radius: 20px;
+   background-color: #ffff;
+}
+.inputBox {
+   width: 300px;
+   padding: 5px 15px;
+   border: 1px solid #067bc2;
+   outline: none;
+   border-radius: 4px;
+   overflow: hidden;
+}
+
+.inputBox:hover {
+   border: 2px solid #067bc2;
+}

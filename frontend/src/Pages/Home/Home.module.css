@@ -1,0 +1,128 @@
+.hero {
+   position: relative;
+   overflow-x: hidden;
+}
+
+.heroContent {
+   width: 100%;
+   position: absolute;
+   left: 10%;
+   top: 50%;
+   transform: translate(0%, -50%);
+   color: white;
+   font-size: 55px;
+}
+
+.heroText {
+   font-weight: 900;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+.heroText:first-of-type {
+   animation: showup 4s infinite;
+}
+
+.heroText:last-of-type {
+   width: 0px;
+   animation: reveal 4s infinite;
+}
+
+.heroText:last-of-type span {
+   margin-left: -355px;
+   animation: slidein 4s infinite;
+}
+
+@keyframes showup {
+   0% {
+      opacity: 0;
+   }
+   20% {
+      opacity: 1;
+   }
+   80% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+   }
+}
+
+@keyframes slidein {
+   0% {
+      margin-left: -800px;
+   }
+   20% {
+      margin-left: -800px;
+   }
+   35% {
+      margin-left: 0px;
+   }
+   100% {
+      margin-left: 0px;
+   }
+}
+
+@keyframes reveal {
+   0% {
+      opacity: 0;
+      width: 0px;
+   }
+   20% {
+      opacity: 1;
+      width: 0px;
+   }
+   30% {
+      width: 855px;
+   }
+   80% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      width: 855px;
+   }
+}
+
+.heroImageDiv {
+   width: 100%;
+}
+
+.heroImageDiv img {
+   width: 100%;
+}
+
+.cardText {
+   font-size: 13px;
+}
+
+.cardHeading {
+   font-size: 22px;
+}
+
+.titleBar {
+   margin-block: 80px;
+}
+
+.titleTag {
+   color: #067bc2;
+   font-size: 12px;
+   text-decoration: none;
+   border-radius: 25px;
+}
+
+.universityTitle {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 22px;
+   color: #067bc2;
+}
+
+.universityFname {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 134%;
+   color: #000000;
+}
